@@ -8,4 +8,4 @@ Create a simple calendar application that allows a user to save events for each 
 ## Deployed Site
 deployed site below:
 
-[Deployed Site](https://eloy522752868.github.io/interview-coding-assessment/)
+[Deployed Site](https://eloy522752868.github.io/work-day-scheduler/)
