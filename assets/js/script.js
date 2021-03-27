@@ -16,7 +16,7 @@
  */
 //Used moments and requested
 
-var currentTime = moment().format("dddd, MMM Do");
+var currentTime = moment().format("dddd, MMMM Do");
 var timeInterval = null;
 var timeLeft = 60;
 var result = []; // Results will go here
