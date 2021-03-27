@@ -1,6 +1,6 @@
 /**
 * Name: Eloy Gonzalez
-* Date: 03/17/2021
+* Date: 03/20/2021
 * Description:
  This week’s homework requires me create a simple calendar application that allows
   a user to save events for each hour of the day by modifying starter code. This app will run in the browser and 
