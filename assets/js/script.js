@@ -15,7 +15,8 @@
  * and if it not yet been created generate new data for array and then update local storage.
  */
 //Used moments and requested
-var currentTime = moment().format("MMM Do, YYYY, hh:mm:ss");
+
+var currentTime = moment().format("dddd, MMM Do");
 var timeInterval = null;
 var timeLeft = 60;
 var result = []; // Results will go here
@@ -130,7 +131,7 @@ function countdown() {
     // As long as the `timeLeft` is greater than 1
     if (timeLeft > 1) {
       // Set the `textContent` of `timerEl` to show the remaining seconds
-      currentTime = moment().format("MMM Do, YYYY, hh:mm:ss");
+      moment().format("dddd, MMM Do");
       $("#date-time").text(currentTime);
       // Decrement `timeLeft` by 1
       timeLeft--;
